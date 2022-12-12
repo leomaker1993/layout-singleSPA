@@ -1,0 +1,17 @@
+<single-spa-router>
+  <route default>
+    <nav>
+      <application name="@Example/mf-navbar"></application>
+    </nav>
+    <main>
+      <section class="content" style="display: flex; flex-direction: row">
+        <route path="micro1">
+          <application name="@Example/mf-one"></application>
+        </route>
+        <route path="micro2">
+          <application name="@Example/mf-two"></application>
+        </route>
+      </section>
+    </main>         
+  </route>
+</single-spa-router>
